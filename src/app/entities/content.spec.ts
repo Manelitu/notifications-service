@@ -1,7 +1,7 @@
 import { Content } from './content';
 
 describe('Content entity', () => {
-  it('should be able to create a ntofication content', () => {
+  it('should be able to create a notification content', () => {
     const content = new Content('any content');
     expect(content).toBeTruthy();
   });
